@@ -77,11 +77,11 @@ public class RockPaperScissorsFrame extends JFrame {
 
         ImageIcon rockIcon = new ImageIcon("src/rockImg.jpg");
         ImageIcon paperIcon = new ImageIcon("src/paperImg.jpg");
-        ImageIcon scissorsIcon = new ImageIcon("src/scissorImg.jpg");
+        ImageIcon scissorsIcon = new ImageIcon("src/scissorsImg.png");
 
         Image rockImg = rockIcon.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH);
         Image paperImg = paperIcon.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH);
-        Image scissorsImg = scissorsIcon.getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+        Image scissorsImg = scissorsIcon.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH);
 
         ImageIcon resizedRockIcon = new ImageIcon(rockImg);
         ImageIcon resizedPaperIcon = new ImageIcon(paperImg);
